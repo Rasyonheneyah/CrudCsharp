@@ -25,5 +25,12 @@ namespace academico.Controllers
         {
             return View(instituicoes);
         }
+
+        public ActionResult Create()
+        {
+            return View();
+        }
+
+
     }
 }
